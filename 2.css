@@ -1,0 +1,68 @@
+.about-us {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card {
+  min-width: 400px;
+  max-width: 400px;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  max-height: 280px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.navigation-pane {
+  background-color: black;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: solid aqua 2px;
+  position: fixed;
+  width: 97.5vw;
+  top: 0;
+}
+
+.logo h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+.actions {
+  margin-left: auto; /* Push the actions to the right */
+}
+
+.actions button {
+  background-color: aqua;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+}
+
+.actions button:hover {
+  background-color: aqua;
+}
+
+.biru {
+  color: aqua;
+}
